@@ -1,0 +1,19 @@
+<%- include('../layouts/main') %>
+
+<div class="container">
+  <h1>All Events</h1>
+  <ul>
+    <% events.forEach(event => { %>
+    <li>
+      <h3><a href="/events/<%= event._id %>"><%= event.name %></a></h3>
+      <p>Description: <%= event.description %></p>
+      <p>Date: <%= new Date(event.date).toLocaleDateString() %></p>
+      <p>Time: <%= event.time %></p>
+      <p>Location: <%= event.location %></p>
+      <form action="/events/<%= event._id %>?_method=DELETE" method="POST">
+        <button type="submit">Delete</button>
+      </form>
+    </li>
+    <% }) %>
+  </ul>
+</div>

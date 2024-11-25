@@ -1,0 +1,17 @@
+<%- include('../layouts/main') %>
+
+<div class="container">
+  <h1>Start a New Chat</h1>
+  <form action="/chats" method="POST">
+    <div class="form-group">
+      <label for="message">Your Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Type your message to the AI here..."
+        required
+      ></textarea>
+    </div>
+    <button type="submit">Start Chat</button>
+  </form>
+</div>
