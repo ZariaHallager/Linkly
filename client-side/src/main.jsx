@@ -3,7 +3,7 @@ import "./index.css";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import RootLayout from "./layouts/rootLayout/rootLayout.jsx";
+import RootLayout from "./layouts/rootLayout/RootLayout.jsx";
 import HomePage from "./routes/homepage/Homepage.jsx";
 import DashboardPage from "./routes/dashboardPage/DashboardPage.jsx";
 import ChatPage from "./routes/chatPage/ChatPage.jsx";
