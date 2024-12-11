@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useRef, useState } from "react";
 import "./newPrompt.css";
 import Upload from "../upload/Upload";

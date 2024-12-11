@@ -1,3 +1,4 @@
+import React from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import "./dashboardLayout.css";
 import { useAuth } from "@clerk/clerk-react";

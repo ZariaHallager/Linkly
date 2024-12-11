@@ -1,3 +1,4 @@
+import React from "react";
 import "./chatPage.css";
 import NewPrompt from "../../components/newPrompt/NewPrompt";
 import { useQuery } from "@tanstack/react-query";
