@@ -1,0 +1,54 @@
+# flyctl launch added from client-side/.gitignore
+# Logs
+client-side/**/logs
+client-side/**/*.log
+client-side/**/npm-debug.log*
+client-side/**/yarn-debug.log*
+client-side/**/yarn-error.log*
+client-side/**/pnpm-debug.log*
+client-side/**/lerna-debug.log*
+
+client-side/**/node_modules
+client-side/**/dist
+client-side/**/dist-ssr
+client-side/**/*.local
+client-side/**/.env
+
+# Editor directories and files
+client-side/**/.vscode/*
+!client-side/**/.vscode/extensions.json
+client-side/**/.idea
+client-side/**/.DS_Store
+client-side/**/*.suo
+client-side/**/*.ntvs*
+client-side/**/*.njsproj
+client-side/**/*.sln
+client-side/**/*.sw?
+
+# flyctl launch added from server/.gitignore
+# Logs
+server/**/logs
+server/**/*.log
+server/**/npm-debug.log*
+server/**/yarn-debug.log*
+server/**/yarn-error.log*
+server/**/pnpm-debug.log*
+server/**/lerna-debug.log*
+
+server/**/node_modules
+server/**/dist
+server/**/dist-ssr
+server/**/*.local
+server/**/.env
+
+# Editor directories and files
+server/**/.vscode/*
+!server/**/.vscode/extensions.json
+server/**/.idea
+server/**/.DS_Store
+server/**/*.suo
+server/**/*.ntvs*
+server/**/*.njsproj
+server/**/*.sln
+server/**/*.sw?
+fly.toml
