@@ -8,8 +8,8 @@ import HomePage from "./routes/homepage/Homepage.jsx";
 import DashboardPage from "./routes/dashboardPage/DashboardPage.jsx";
 import ChatPage from "./routes/chatPage/ChatPage.jsx";
 import DashboardLayout from "./layouts/dashboardLayout/DashboardLayout.jsx";
-import SignInPage from "./routes/signInPage/SignInPage.jsx";
-import SignUpPage from "./routes/signUpPage/SignUpPage.jsx";
+import SignInPage from "./routes/signInPage/signInPage.jsx";
+import SignUpPage from "./routes/signUpPage/signUpPage.jsx";
 import EventFormPage from "./routes/event/eventFormPage.jsx";
 
 const router = createBrowserRouter([
